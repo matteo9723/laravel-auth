@@ -18,9 +18,13 @@
                 
                 <th scope="row">{{$post->id}}</th>
                 <td>{{$post->title}}</td>
-                <td>xxx</td>
+                <td><a  class="btn btn-primary" href="{{route('admin.posts.show',$post)}}"> SHOW</a></td>
+                <td><button  class="btn btn-success">EDIT</button></td>
+                <td><button  class="btn btn-danger">DELETE</button></td>
                 
              </tr>
+
+            
             @endforeach  
        
         </tbody>

@@ -29,6 +29,7 @@
                 @auth()
                     
                     <a href="{{route('admin.posts.index')}}">elenco post</a>
+                    <a href="{{route('admin.posts.create')}}" class="ml-3">crea nuovo post</a>
                 @endauth
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
